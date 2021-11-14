@@ -1,0 +1,96 @@
+html{
+    font-family: monospace;
+}
+img{
+    width: 254px;
+    height: 254px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+iframe{
+display: block;
+margin-left: -10px;
+}
+.logo{
+    background: transparent;
+    width: 125px;
+    height: auto;
+}
+.links{
+    display:flex;
+    gap: 20px;
+}
+figcaption{
+    width: 254px;
+}
+#highlights{
+    text-align: center;
+    margin-right: 41%;
+    margin-top: 100px;
+}
+.row{
+    display:flex;
+    justify-content: center;
+}
+#imp{
+    height: 397px;
+    width: 397px;
+}
+.row2{
+    display:flex;
+    justify-content: center;
+    gap:80px;
+    margin-top: 100px;
+}
+.column{
+    width: 450px;
+}
+#spec{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 38%;
+}
+li{
+    margin: 20px;
+}
+.row3{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.center{
+    margin: auto;
+    padding: 50px;
+}
+.buy{
+    padding: 0 20px 0 20px;
+    max-width: 370px;
+    border: 1px solid black;
+    margin: auto;
+}
+#email{
+    width: 350px;
+    height: 40px;
+    margin: 10px 0 15px 0;
+}
+.signRow{
+    display:flex;
+    gap: 7px;
+}
+button{
+    display:flex;
+    align-items: center;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
